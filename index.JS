@@ -8,11 +8,10 @@ function showProducts(category) {
     Cosmetics: ["Lipstick", "Face Mask"],
   };
 
-  // Очистити контейнери перед відображенням
   productsContainer.innerHTML = "";
   productInfoContainer.innerHTML = "";
 
-  // Відображення категорій, якщо категорія не вибрана
+
   if (!category) {
     const categoryItems = document.getElementsByClassName("category-item");
     for (const categoryItem of categoryItems) {
