@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .container {
   display: flex;
 }
@@ -30,4 +31,8 @@
 .category-item:hover,
 .product-item:hover {
   background-color: #c0c0c0;
+}
+
+.hidden {
+  display: none;
 }
